@@ -1,9 +1,17 @@
 number = int(input("écrite un nomber : "))
+list =  []
+mo = ""
+while True:
+    if number == 1:
+        break
+    elif number % 2 == 0 :
+        number = number // 2
+        list.append(number)
+    elif number % 2 != 0:
+        number = number * 3 + 1 
+        list.append(number)
+for i in list:
+    mo += f"{i} , "
 
-if number % 2 == 0 :
 
-    resultat = number // 2
-elif number % 2 != 0:
-    resultat = number * 3 + 1 
-
-print(resultat)
+print(f"resultat est {number} => ({mo[:-3]})")
