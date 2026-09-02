@@ -8,3 +8,5 @@ list_1_clean = [x for x in list_1 if len(x) <= 3]
 list_2_clean = [x for x in list_2 if len(x) <= 3]
 
 print(list(set(list_1_clean) & set(list_2_clean)))
+
+# print(type(set(list_1_clean) & set(list_2_clean)))
