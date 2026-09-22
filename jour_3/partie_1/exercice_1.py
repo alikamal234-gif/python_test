@@ -45,7 +45,7 @@ def number_log():
 
 
 
-# print(types())
+print(types())
 # print(lists())
 print(number_log())
 

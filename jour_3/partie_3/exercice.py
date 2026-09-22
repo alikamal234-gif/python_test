@@ -1,6 +1,6 @@
 def compute_list_sum(numbers = []):
-    """this function for calcul sum of numbers pair """
-    """type is integer and float
+    """this function for calcul sum of numbers pair 
+        type is integer and float
 
         exemple : 
             >> print("resultat : " , compute_list_sum([1, 2, 3, 4, 5]))
@@ -18,3 +18,4 @@ def compute_list_sum(numbers = []):
 
 
 print("resultat : ",compute_list_sum([1, 2, 3, 4, 5]))
+print(compute_list_sum.__doc__)

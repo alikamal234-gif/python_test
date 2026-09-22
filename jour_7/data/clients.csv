@@ -1,0 +1,11 @@
+client_id,nom,age,sexe,ville,salaire,anciennete
+1,Ali,25,M,Casablanca,5000,2
+2,Sara,31,F,Rabat,6500,5
+3,Yassine,28,M,Marrakech,4500,3
+4,Salma,35,F,Casablanca,8000,7
+5,Omar,42,M,Rabat,9000,10
+6,Nadia,29,F,Tanger,5200,4
+7,Mehdi,38,M,Casablanca,7500,8
+8,Hajar,26,F,Marrakech,4800,2
+9,Adam,45,M,Rabat,10000,12
+10,Souad,33,F,Tanger,6200,6
